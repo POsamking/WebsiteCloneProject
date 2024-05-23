@@ -1,0 +1,313 @@
+        body {
+            background-color: white;
+            font-family: 'Radio Canada Big', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+        }
+
+        /* This is the first section*/
+
+        .main,
+        #header {
+            background-color: black;
+            width: 100%;
+            height: 100vh;
+        }
+
+
+        ol {
+            list-style-type: none;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        #header {
+            position: relative;
+        }
+
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #navbar1 ol li,
+        #navbar2 ol li {
+            list-style-type: none;
+            display: inline;
+            padding: 5px;
+        }
+
+        #navbar2 ol li button {
+            background-color: white;
+            border: none;
+            color: black;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 25px;
+        }
+
+        #navbar2 {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        h1 {
+            font-size: 350%;
+            margin-left: 150px;
+            margin-top: 150px;
+        }
+
+        .p1 {
+            margin-left: 160px;
+            margin-top: 20px;
+        }
+
+        .main {
+            background-color: black;
+            margin-top: 250px;
+        }
+
+        #searchbar {
+            margin-left: 150px;
+            margin-top: 0;
+        }
+
+        #searchbar form {
+            display: flex;
+        }
+
+        #searchbar input[type="text"] {
+            width: 350px;
+            height: 40px;
+            margin: 10px;
+            padding: 2px;
+            border-radius: 10px;
+        }
+
+        #button li button {
+            background-color: white;
+            border: none;
+            color: black;
+            padding: 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-left: 125px;
+        }
+
+        #picture1 {
+            display: flex;
+            float: right;
+            margin-top: 220px;
+            margin-right: 350px;
+            width: 550px;
+            height: 570px;
+            margin: 90px;
+            padding: 10px;
+            padding-bottom: 0px;
+
+        }
+
+        /* This is the second section*/
+        .section {
+            background-color: white;
+            min-height: 100vh;
+        }
+
+
+        .content {
+            display: flex;
+            margin-top: 250px;
+        }
+
+        #picture2 {
+            display: flex;
+            float: right;
+            margin-top: 220px;
+            width: 550px;
+            height: 570px;
+            margin: 100px;
+            padding: 5px;
+        }
+
+        .text {
+            flex: 60%;
+            color: black;
+            padding: 20px;
+            padding-left: 50px;
+            padding-right: 150px;
+            margin: 10px;
+
+        }
+
+        .h2 {
+            font-size: 350%;
+            margin: 0;
+            margin-top: 200px;
+            padding: 0;
+            padding-right: 50px;
+
+        }
+
+        .p2 {
+            margin: 0;
+            padding: 0;
+            margin-right: 150px;
+            margin-top: 20px;
+        }
+
+
+        #button2 a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        ol {
+            list-style-type: none;
+        }
+
+        #button2 {
+            background-color: black;
+            border: none;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            display: flex;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-left: 50px;
+            padding: 15px;
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+
+        #button2 {
+            position: relative;
+            bottom: 45px;
+        }
+
+        .p3 {
+            color: black;
+            margin: 0;
+            padding: 0;
+            margin-left: 35%;
+        }
+
+        /* This is the third section*/
+
+        .h3,
+        .p5 {
+            color: black;
+        }
+
+        .h3 {
+            margin: 0;
+            padding: 0;
+            margin-left: 30px;
+            margin-top: 250px;
+        }
+
+
+        .p5 {
+            margin: 0;
+            padding: 0;
+            margin-left: 180px;
+            margin-top: 10px;
+        }
+
+        #button3 {
+            background-color: black;
+            border: none;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            border-radius: 5px;
+            margin-left: 150px;
+            padding-left: 25px;
+            padding-right: 25px;
+            position: relative;
+
+        }
+
+        #picture3 {
+            display: flex;
+            float: right;
+            position: relative;
+            top: -250px;
+            width: 550px;
+            height: 570px;
+            margin: 100px;
+            padding: 5px;
+        }
+
+        .p6 {
+            color: black;
+            margin: 0;
+            padding: 0;
+            margin-left: 13%;
+            position: relative;
+            top: 50px;
+        }
+
+        /* This is the final sectioN */
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 100px;
+            padding-left: 200px;
+
+        }
+
+        .footer-content {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .footer-section {
+            flex: 1;
+            max-width: 250px;
+            text-align: left;
+            margin: 0 20px;
+        }
+
+        .footer-section h4 {
+            color: white;
+        }
+
+        .footer-section ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .footer-section ul li {
+            margin-bottom: 5px;
+        }
+
+        .footer-section a {
+            color: white;
+            text-decoration: none;
+        }
+
+        @media screen and (max-width: 768px) {
+            .footer-section {
+                flex-basis: 100%;
+                margin: 0 0 20px 0;
+            }
+        }
